@@ -8,12 +8,17 @@ display:inline-block
 }
 
 .header {
+  padding: 40px 0;
   display: flex;
   justify-content: space-between;
 }
 
 .logo {
-  padding: 40px 0 ;
+  /*padding: 40px 0;
+  font: bold 24px/31px pt_serifregular, arial, helvetica, sans-serif;*/
+width: 190px;
+height: 35px;
+background: url('files/logo.svg');
 }
 
 .menu {
