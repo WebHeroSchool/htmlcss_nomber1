@@ -14,11 +14,10 @@ display:inline-block
 }
 
 .logo {
-  /*padding: 40px 0;
-  font: bold 24px/31px pt_serifregular, arial, helvetica, sans-serif;*/
-width: 190px;
-height: 35px;
-background: url('files/logo.svg');
+  position: relative;
+  padding: 40px 0;
+  padding-left: 44px;
+  font: bold 24px/31px pt_serifregular, arial, helvetica, sans-serif;
 }
 
 .menu {
@@ -28,3 +27,25 @@ background: url('files/logo.svg');
 .menu__item:not(:last-child) {
   padding-right: 25px;
 }
+
+.logo__circle {
+  position: absolute;
+  left: 0;  
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  opacity: .7;
+  }
+ 
+  .logo__circle_color_dark-blue {
+    background: #0056ec;
+  }
+
+  .logo__circle_color_blue {
+    left: 8px;
+    top: 58%;
+    background: #c7dbfb;
+  }
+ 
