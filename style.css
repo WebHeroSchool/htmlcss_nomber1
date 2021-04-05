@@ -16,15 +16,7 @@ display:inline-block
 .logo {
   position: relative;
   padding-left: 44px;
-  font: bold 24px/31px pt_serifregular, arial, helvetica, sans-serif;
-}
-
-.menu {
-  display: flex;
-  align-items: center;
-}
-.menu__item:last-child {
-  margin-right: 0;
+  font: bold 24px/31px 'pt_serifbold', arial, helvetica, sans-serif;
 }
 
 .logo__circle {
@@ -47,11 +39,19 @@ display:inline-block
     top: 58%;
     background: #c7dbfb;
   }
+
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  .menu__item:last-child {
+    margin-right: 0;
+  }
  
   .menu__item {
     position: relative;
     margin-right: 26px;
-    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+    font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
     color: #000;
     text-decoration: none;
     transition: opacity .5s;
