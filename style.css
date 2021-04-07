@@ -8,7 +8,7 @@ body {
 }
 
 .logo,.menu {
-  display:inline-block;
+  display: inline-block;
 }
 
 .header {
@@ -56,7 +56,7 @@ body {
   font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
 
 .menu__item:last-child {
@@ -72,14 +72,14 @@ body {
   height: 3px;
   background: #0056ec;
   opacity: 0;
-  transition: opacity .5s, width .5s;
+  transition: opacity 0.5s, width 0.5s;
 }
 
 .menu__item:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
-.menu__item:hover::after, .menu__item_active::after {
+.menu__item:hover::after .menu__item_active::after {
   opacity: 1;
   width: 100%;
 }
@@ -96,7 +96,7 @@ body {
 
 .main {
   padding: 70px 63% 100% 0;
-  background: top right no-repeat url(files/Frame\ \(1\).svg) ;
+  background: top right no-repeat url(files/Frame\ \(1\).svg);
 }
  
 .main__title {
