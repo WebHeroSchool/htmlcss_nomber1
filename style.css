@@ -96,7 +96,7 @@ body {
 
 .main {
   padding: 70px 63% 100% 0;
-  background: top right no-repeat url(files/Frame\ \(1\).svg);
+  background: top right no-repeat url(files/Frame.svg);
 }
  
 .main__title {
@@ -122,11 +122,11 @@ body {
   background: #0056ec;
   text-decoration: none;
   border-radius: 4px;
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
 
 .main__button:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .swap {
