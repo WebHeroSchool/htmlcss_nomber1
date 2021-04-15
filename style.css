@@ -21,7 +21,7 @@ display:inline-block
 
 .logo__circle {
   position: absolute;
-  left: 0;  
+  left: 0;
   top: 50%;
   transform: translateY(-50%);
   width: 28px;
@@ -58,11 +58,11 @@ display:inline-block
   margin-right: 0;
 }
 
-.menu__item::after {
+.menu__item:after {
   position: absolute;
+  left: 0;
   display: block;
   content: '';
-  left: 0;
   width: 0;
   height: 3px;
   background: #0056ec;
@@ -70,11 +70,20 @@ display:inline-block
   transition: opacity 0.5s, width 0.5s;
 }
 
+.menu__item_active::after {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 68px;
+  height: 3px;
+  background: #0056ec;
+}
+
 .menu__item:hover {
   opacity: 0.5;
 }
 
-.menu__item:hover::after .menu__item_active::after {
+.menu__item:hover::after, .menu__item_active::after {
   opacity: 1;
   width: 100%;
 }
