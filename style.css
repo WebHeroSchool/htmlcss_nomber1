@@ -1,5 +1,6 @@
 body {
   margin-top: 0;
+  margin-left: 5px;
 }
 
 .wrapper {
@@ -48,11 +49,12 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  transform: translateY(10%);
 }
 
 .menu__item {
   position: relative;
-  margin-right: 26px;
+  margin-right: 27px;
   font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -79,7 +81,7 @@ body {
   opacity: 0.5;
 }
 
-.menu__item:hover::after .menu__item_active::after {
+.menu__item:hover::after, .menu__item_active::after {
   opacity: 1;
   width: 100%;
 }
@@ -95,7 +97,7 @@ body {
 }
 
 .main {
-  padding: 70px 63% 100% 0;
+  padding: 69px 63% 10% 0;
   background: top right no-repeat url(files/Frame.svg);
 }
  
@@ -109,7 +111,7 @@ body {
 }
 
 .main__subtitle {
-  margin: 0 0 41px 0;
+  margin: 0 0 40px 0;
   font: 22px/26px 'robotoregular', arial, helvetica, sans-serif;
   width: 455px;
 }
@@ -117,7 +119,7 @@ body {
 .main__button {
   display: inline-block;
   font: 18px/25px 'Roboto', arial, helvetica, sans-serif;
-  padding: 15px 30px 15px 20px;
+  padding: 16px 33px 16px 22px;
   color: #fff;
   background: #0056ec;
   text-decoration: none;
