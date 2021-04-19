@@ -81,7 +81,8 @@ body {
   opacity: 0.5;
 }
 
-.menu__item:hover::after, .menu__item_active::after {
+.menu__item:hover::after,
+.menu__item_active::after {
   opacity: 1;
   width: 100%;
 }
@@ -129,19 +130,4 @@ body {
 
 .main__button:hover {
   opacity: 0.5;
-}
-
-.swap {
-  position: absolute;
-  bottom: 40px;
-  left: 50%;
-}
-
-.swap__circle {
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  opacity: .7;
-  background: #c7dbfb;
 }
