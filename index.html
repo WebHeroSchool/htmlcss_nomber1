@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Мой первый сайт</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -15,7 +16,7 @@
       <div class="logo">
         <div class="logo__circle logo__circle_color_dark-blue"></div>
         <div class="logo__circle logo__circle_color_blue"></div>
-        app.creation
+        <div class="logo__name">app.creation</div>
       </div>
       <nav class="menu">
         <a class="menu__item " href="">start</a>
@@ -24,17 +25,28 @@
         <a class="menu__item " href="">blog</a>
         <a class="menu__item " href="">contact us</a>
       </nav>
-    </header>
-    <section class="main-section">
-      <main class="main-content">
-        <h1 class="main-content__title">Building an App Without Design Expertise?</h1>
-        <p class="main-content__subtitle">I help tech startups design better digital products  without hiring a full-time designer</p>
-        <button class="main-content__button" type="button" name="button">Schedule free consultation</button>
-      </main>
-      <div class="image-content">
-        <img class="image-content__image" src="" alt="">
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox">
+        <label class="menu__btn" for="menu__toggle"><span></span></label>
+        <ul class="menu__box">
+          <li><a class="menu__item_box" href="#">start</a></li>
+          <li><a class="menu__item_box" href="#">services</a></li>
+          <li><a class="menu__item_box" href="#">about</a></li>
+          <li><a class="menu__item_box" href="#">blog</a></li>
+          <li><a class="menu__item_box" href="#">contact us</a></li>
+        </ul>
       </div>
+    </header>
+    <section class="main">
+      <h1 class="main__title">Building an App <span class="main__title-text_highlight"> Without Design Expertise</span>?</h1>
+      <p class="main__subtitle">I help tech startups design better digital products  without hiring a full-time designer</p>
+      <a class="main__button" href="#">Schedule free consultation</a>
     </section>
+    <div class="swap">
+      <div class="swap__circle"></div>
+      <div class="swap__circle"></div>
+      <div class="swap__circle"></div>
+    </div>
   </div> 
 </body>
 </html>
