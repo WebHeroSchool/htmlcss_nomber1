@@ -268,7 +268,7 @@ body {
     width: 26px;
     height: 28px;
     cursor: pointer;
-    z-index: 1;
+    z-index: 2;
   }
 
   .menu__btn > span,
@@ -307,6 +307,7 @@ body {
     background-color: white;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
     transition-duration: 0.25s;
+    z-index: 1;
   }
 
   .menu__item_box {
@@ -407,7 +408,7 @@ body {
       width: 26px;
       height: 26px;
       cursor: pointer;
-      z-index: 1;
+      z-index: 2;
     }
 
     .menu__btn > span,
@@ -446,6 +447,7 @@ body {
       background-color: white;
       box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
       transition-duration: 0.25s;
+      z-index: 1;
     }
 
     .menu__item_box {
