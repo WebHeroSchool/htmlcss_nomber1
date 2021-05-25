@@ -125,6 +125,7 @@ body {
   font: 18px/25px 'Roboto', arial, helvetica, sans-serif;
   padding: 18px 37px 14px 21px;
   color: #0056ec;
+  background-color: #ecf3ff;
   text-decoration: none;
   border-radius: 4px;
   overflow: hidden
@@ -540,7 +541,7 @@ body {
   }
 }
 
-@media (max-width: 1367px) {
+@media (max-width: 1380px) {
   @media (min-width: 1025px) {
     .wrapper {
       margin: auto;
